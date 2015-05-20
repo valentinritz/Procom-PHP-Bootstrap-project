@@ -1,0 +1,104 @@
+.logo{
+  top:0 !important;
+  position:absolute !important;
+  height:40px !important
+}
+.cat_try{
+  margin-top:1em !important
+}
+.pagination {
+  margin: -36px 0px !important
+}
+.dropdown{
+  position: absolute;
+  width:200px;
+  border:1px solid #ccc;
+  padding:1em;
+  border-radius: 3px;
+  background:#fdfdfd;
+  margin:35px 0 0 -160px;
+  z-index:1;
+  display:none;
+}
+.infos:hover .dropdown{
+  display:block;
+}
+.dropdown:after{
+  content:"";
+  position: absolute;
+  width:200px;
+  border-width:10px;
+  border-style: solid;
+  border-color:transparent transparent #fdfdfd transparent;
+  z-index:1;
+  width:0px;
+  height:0px;
+  top:-19px;
+  right:10px
+}
+.dropdown:before{
+  content:"";
+  position: absolute;
+  width:200px;
+  border-width:10px;
+  border-style: solid;
+  border-color:transparent transparent #ccc transparent;
+  z-index:1;
+  width:0px;
+  height:0px;
+  top:-20px;
+  right:10px
+}
+
+.toggled .vu:before{
+  content: "";
+  margin-left:1em;
+}
+.visible{
+  display:none;
+}
+.cat_try .glyphicon{
+  margin-right:1em
+}
+.delete_search{
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  display: block;
+  margin-right: 47px;
+  z-index: 3;
+  right: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+a.delete_search:hover{
+  text-decoration:none
+}
+.hidden-form{
+  display:none
+}
+.editing + .hidden-form{
+  display:block
+}
+.modal{
+  width: 50%;
+  left: 25%;
+  background: white;
+  border: 1px solid #ccc;
+  height: 225px;
+  border-radius: 3px;
+  margin-top: 100px;
+}
+
+.overlay{
+  display:none;
+  position:fixed;
+  width:100%;
+  background:rgba(0,0,0,0.7);
+  z-index:3;
+  height:100%;
+}
+.show{
+  display:block;
+}
